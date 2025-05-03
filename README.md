@@ -22,6 +22,10 @@ They can be installed using using pip:
 
 ```bash
 pip install shodan mmh3 colorama requests
-
-## Docker
+```
+## Docker 
+The script can be run in a docker container, as a Dockerfile is included.  
+1. Install Docker
+2. Build a Docker container in the script directory
+3. Run the container in interactive mode and pass in your own Shodan API key
 
