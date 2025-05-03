@@ -7,18 +7,18 @@ This Python script helps identify potentially phishing websites by analyzing the
 1. The script prompts the user to input a website or IP address.
 2. It retrieves the site's favicon and calculates its `mmh3` hash.
 3. It queries Shodan to find other hosts using the same hash.
-4. It lists all matched hosts to a file (`results.txt`) and informs the user if the website is likely to be a phishing site based on the results.
+4. It lists all matched hosts to a file (`PhaviconPhisherOutput.txt`) and informs the user if the website is likely to be a phishing site based on the results.
 
 ## 📦 Dependencies
 
-Make sure you have the following Python packages installed:
+The following dependencies are required:
 
 - `shodan`
 - `mmh3`
 - `colorama`
 - `requests`
 
-You can install them using pip:
+They can be installed using using pip:
 
 ```bash
 pip install shodan mmh3 colorama requests
