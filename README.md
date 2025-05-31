@@ -1,6 +1,6 @@
 # PhaviconPhisher
 
-This Python script helps identify potentially phishing websites by analyzing their favicons. By calculating the hash of a favicon and querying the Shodan database, the script detects other domains using the same favicon, a common trait among phishing sites.
+This Python script helps identify potential phishing websites by analyzing their favicons. By calculating the hash of a favicon and querying the Shodan database, the script detects other domains using the same favicon, a common trait among phishing sites.
 
 ## How It Works
 
