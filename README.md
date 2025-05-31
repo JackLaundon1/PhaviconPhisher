@@ -11,7 +11,7 @@ This Python script helps identify potentially phishing websites by analyzing the
 
 ## Installation
 ### Requirements
-A valid Shodan API key of member level or higher.
+A valid Shodan API key of member level or higher.  The current source code for PhaviconPhisher uses an environment variable (recommended for security) but this can be changed if desired.
 
 ### Python Installation
 The following dependencies are required:
@@ -26,10 +26,29 @@ They can be installed using using pip:
 ```bash
 pip install shodan mmh3 colorama requests
 ```
-
+A valid Shodan API key must be set, in an environment variable or otherwise, or the script will not function correctly.
 ### Docker 
 The script can be run in a docker container, as a Dockerfile is included.  
 1. Install Docker
 2. Build a Docker container in the script directory
 3. Run the container in interactive mode and pass in your own Shodan API key
 
+### Windows Executable 
+A standalone Windows .exe file.
+1. Downlaod PhaviconPhisher.exe
+2. Set your Shodan API key as an environment variable:
+``` Temporary (Command Prompt)
+set SHODAN_API_KEY=<API key> PhaviconPhisher.exe
+```
+```Permament (System-Wode):
+1. Open Start → search Environment Variables.
+2. Click "Edit the system environment variables".
+3. Under User Variables, click New:
+4. Name: SHODAN_API_KEY
+5. Value: your actual key.
+6. Save and close, then run PhaviconPhisher.exe.
+```
+### Cloning from GitHub
+The source code can be cloned from GitHub:
+``` git clone asf
+```
