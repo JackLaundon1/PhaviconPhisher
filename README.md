@@ -10,6 +10,8 @@ This Python script helps identify potentially phishing websites by analyzing the
 4. It lists all matched hosts to a file (`PhaviconPhisherOutput.txt`) and informs the user if the website is likely to be a phishing site based on the results.
 
 ## Installation
+### Requirements
+A valid Shodan API key of member level or higher.
 
 ### Python Installation
 The following dependencies are required:
@@ -24,7 +26,6 @@ They can be installed using using pip:
 ```bash
 pip install shodan mmh3 colorama requests
 ```
-
 
 ### Docker 
 The script can be run in a docker container, as a Dockerfile is included.  
