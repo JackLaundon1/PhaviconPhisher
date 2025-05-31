@@ -11,7 +11,7 @@ This Python script helps identify potentially phishing websites by analyzing the
 
 ## Installation
 
-###Python Installation
+### Python Installation
 The following dependencies are required:
 
 - `shodan`
@@ -24,7 +24,9 @@ They can be installed using using pip:
 ```bash
 pip install shodan mmh3 colorama requests
 ```
-## Docker 
+
+
+### Docker 
 The script can be run in a docker container, as a Dockerfile is included.  
 1. Install Docker
 2. Build a Docker container in the script directory
