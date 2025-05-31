@@ -51,5 +51,6 @@ Or permanently and system-wide:
 ```
 ### Cloning from GitHub
 The source code can be cloned from GitHub:
-``` git clone asf
+```
+ git clone asf
 ```
