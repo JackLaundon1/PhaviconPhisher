@@ -9,8 +9,9 @@ This Python script helps identify potentially phishing websites by analyzing the
 3. It queries Shodan to find other hosts using the same hash.
 4. It lists all matched hosts to a file (`PhaviconPhisherOutput.txt`) and informs the user if the website is likely to be a phishing site based on the results.
 
-## Dependencies
+## Installation
 
+###Python Installation
 The following dependencies are required:
 
 - `shodan`
