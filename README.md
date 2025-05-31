@@ -35,7 +35,7 @@ The script can be run in a docker container, as a Dockerfile is included.
 
 ### Windows Executable 
 A standalone Windows .exe file.
-1. Downlaod PhaviconPhisher.exe
+1. Download PhaviconPhisher.exe
 2. Set your Shodan API key as an environment variable.  This can be done temporarily:
 ``` Temporary (Command Prompt)
 set SHODAN_API_KEY=<API key> PhaviconPhisher.exe
